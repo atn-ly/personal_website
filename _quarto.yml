@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Tam Ly"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - text: "CV"
+        href: cv-academic-Tam_Ly.pdf
+
+format:
+  html:
+    theme: quartz
+    css: styles.css
+    toc: true
